@@ -1,0 +1,94 @@
+/* CSS del template di Gmail */
+
+/* Impostazione globale border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif JP', serif;
+}
+/* Sfondo pagina */
+body {
+  background-image: url("../img/black-wood.jpg");
+  background-repeat: no-repeat;
+}
+/* Distanziamento margini del main */
+main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Stile ID blocco pagina */
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Stile dell'header */
+header {
+  font-weight: 900;
+  color: white;
+  font-size: 24px;
+}
+/* Stile ID del logo Gmail */
+#logo {
+  height: 100px;
+  vertical-align: middle;
+}
+/* Classe del cerchio relativo alle nuove email */
+.orangecircle {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  /* vertical-align: middle; */
+  text-align: center;
+}
+/* Stile ID barra di ricerca */
+#search {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/* Classe del notificatore nuove email */
+.mailstatus {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+/* Classe per cella email da leggere */
+.unreadmail {
+  background-color: #d3d3d3;
+  border: 1px solid black;
+}
+/* Classe per cella email letta */
+.readmail {
+  background-color: rgb(255,255,255);
+  border: 1px solid black;
+}
+/* Margine sinistro checkbox */
+.checkboxmargin {
+  margin-left: 5px;
+}
+/* Stile ID del blocco di ricerca e notifica email */
+#topmenu {
+  margin-bottom: 20px;
+}
+/* Stile ID oggetto email non letta, bold */
+#mailobjecturd {
+  font-weight: 900;
+}
+/* Stile ID oggetto email letta, bold leggero */
+#mailobjectrd {
+  font-weight: 600;
+}
+/* Classe del footer */
+.footerstyle {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+/* Stile ID logo nel footer */
+#logofoot {
+  font-size: 20px;
+  font-weight: bold;
+}
