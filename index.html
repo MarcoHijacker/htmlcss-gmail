@@ -15,15 +15,15 @@
 			<!-- Header -->
 			<header>
 				<img id="logo" src="img/gmail.png" alt="Logo Gmail">
-				<span>Gmail</span>
+				<span id="titlelogo">Gmail</span>
 				<hr>
 			</header>
 
 			<!-- Blocco di ricerca e notifica email -->
 			<div id="topmenu">
 				<div id="search">
-					<input type="text" name="" value="">
-					<button type="button" name="button">VAI</button>
+					<input type="text" name="" value="" placeholder="Search...">
+					<button type="button" name="button">GO</button>
 				</div>
 				<div class="mailstatus">
 					You have <span class="orangecircle">30</span> unread!
@@ -34,28 +34,33 @@
 			<!-- Area Main -->
 			<main>
 				<!-- Messaggio email da leggere -->
-				<div class="unreadmail">
+				<div class="mail unread">
 					<input class="checkboxmargin" type="checkbox" name="" value="">
 					<span id="mailobjecturd">&#9733; Hai vinto 1 milione di euro!</span> <span id="mailcontent"> - Se ci credi davvero...</span>
 				</div>
 				<!-- Messaggio email letto -->
-				<div class="readmail">
+				<div class="mail read">
 					<input class="checkboxmargin" type="checkbox" name="" value="">
 					<span id="mailobjectrd">&#9733; La dieta di Diletta Leotta</span> <span id="mailcontent"> - Consiste nel mangiare poco...</span>
 				</div>
 				<!-- Messaggio email da leggere -->
-				<div class="unreadmail">
+				<div class="mail unread">
 					<input class="checkboxmargin" type="checkbox" name="" value="">
 					<span id="mailobjecturd">&#9733; Sei stato taggato!</span> <span id="mailcontent"> - In una foto dove sei uscito male...</span>
 				</div>
 				<!-- Messaggio email da leggere -->
-				<div class="unreadmail">
+				<div class="mail unread">
 					<input class="checkboxmargin" type="checkbox" name="" value="">
 					<span id="mailobjecturd">&#9733; Disponibile la nuova autocertificazione</span> <span id="mailcontent"> - Per poter andare al mare...</span>
 				</div>
 
 			</main>
 			<hr>
+
+			<!-- Contapagine -->
+			<div class="counter">
+				Page 1 of 10 | Go to page <input type="text" name="" value="" placeholder="1" class="counterform"> <button type="button" name="button">SUBMIT</button>
+			</div>
 
 			<!-- Sezione Footer -->
 			<footer class="footerstyle">

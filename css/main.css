@@ -33,6 +33,10 @@ header {
   height: 100px;
   vertical-align: middle;
 }
+/* Stile ID testo del logo Gmail */
+#titlelogo {
+  text-shadow: 2px 2px 2px #fff;
+}
 /* Classe del cerchio relativo alle nuove email */
 .orangecircle {
   display: inline-block;
@@ -43,6 +47,7 @@ header {
   padding: 10px;
   /* vertical-align: middle; */
   text-align: center;
+  text-shadow: 1px 1px 2px #666;
 }
 /* Stile ID barra di ricerca */
 #search {
@@ -55,15 +60,19 @@ header {
   color: white;
   font-size: 20px;
 }
-/* Classe per cella email da leggere */
-.unreadmail {
-  background-color: #d3d3d3;
+/* Classe per cella email */
+.mail {
+  font-style: normal;
+  font-size: 16px;
   border: 1px solid black;
 }
-/* Classe per cella email letta */
-.readmail {
+/* Classe per email non letta */
+.unread {
+  background-color: #d3d3d3;
+}
+/* Classe per email letta */
+.read {
   background-color: rgb(255,255,255);
-  border: 1px solid black;
 }
 /* Margine sinistro checkbox */
 .checkboxmargin {
@@ -81,6 +90,10 @@ header {
 #mailobjectrd {
   font-weight: 600;
 }
+/* Stile ID dell'anteprima del messaggio */
+#mailcontent {
+  color: #666;
+}
 /* Classe del footer */
 .footerstyle {
   color: white;
@@ -91,4 +104,14 @@ header {
 #logofoot {
   font-size: 20px;
   font-weight: bold;
+}
+/* Classe del counter */
+.counter {
+  text-align: right;
+  color: white;
+  font-weight: 600;
+}
+/* Classe del form del counter */
+.counterform {
+  width: 25px;
 }
